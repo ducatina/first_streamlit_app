@@ -1,3 +1,3 @@
 import streamlit
 
-stramlit.title ('Mr Montenegro')
+streamlit.title ('Mr Montenegro')
