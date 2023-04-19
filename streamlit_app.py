@@ -42,7 +42,7 @@ try:
         # streamlit.write('The user entered ', fruit_choice)
         streamlit.error("Please select fruit to get information.")
     else:
-        back_from_function = get_fruityvice_data(this_fruit_choice)
+        back_from_function = get_fruityvice_data(fruit_choice)
         #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
         # streamlit.text(fruityvice_response.json())
         # write your own comment -what does the next line do? 
